@@ -18,10 +18,11 @@ class ClosePyReplCommand(sublime_plugin.TextCommand):
                 "rows": [0.0, 1.0],
                 "cells": [[0, 0, 1, 1]]
             })
-            close_all_sublime_pythons()
             # view.window().run_command('close')
             view.window().run_command(
                 'select_by_index', {"index": returnWindow})
+
+        close_all_sublime_pythons()
 
 
 def close_all_sublime_pythons():
