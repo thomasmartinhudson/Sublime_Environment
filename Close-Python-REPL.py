@@ -4,23 +4,23 @@ import sublime_plugin
 
 class ClosePyReplCommand(sublime_plugin.TextCommand):
     def run(self, edit):
-        view = self.view
-        # print(view.name())
-        sheet = view.window().active_sheet()
-        if view.window().num_groups() == 2:
-            returnWindow = view.window().get_sheet_index(sheet)[1]
-            # print("returnWindow = %s" % (returnWindow))
-            view.window().run_command('focus_group', {
-                "group": 1
-            })
-            view.window().run_command('set_layout', {
-                "cols": [0.0, 1.0],
-                "rows": [0.0, 1.0],
-                "cells": [[0, 0, 1, 1]]
-            })
-            # view.window().run_command('close')
-            view.window().run_command(
-                'select_by_index', {"index": returnWindow})
+        # view = self.view
+        # # print(view.name())
+        # sheet = view.window().active_sheet()
+        # if view.window().num_groups() == 2:
+        #     returnWindow = view.window().get_sheet_index(sheet)[1]
+        #     # print("returnWindow = %s" % (returnWindow))
+        #     view.window().run_command('focus_group', {
+        #         "group": 1
+        #     })
+        #     view.window().run_command('set_layout', {
+        #         "cols": [0.0, 1.0],
+        #         "rows": [0.0, 1.0],
+        #         "cells": [[0, 0, 1, 1]]
+        #     })
+        #     # view.window().run_command('close')
+        #     view.window().run_command(
+        #         'select_by_index', {"index": returnWindow})
 
         close_all_sublime_pythons()
 
