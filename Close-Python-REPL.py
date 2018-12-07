@@ -41,9 +41,10 @@ def close_all_sublime_pythons():
             def kill(self):
                 try:
                     os.kill(self.pid, 9)
-                    print('Process %s killed' % (self.pid))
+                    print('Process {}: {} killed'.format(self.pid, self.name))
                 except:
-                    print('Could not kill process %s' % (self.pid))
+                    print('Could not kill process {}: {}'.format(
+                        self.pid, self.name))
 
         process_map = [
             [
@@ -99,6 +100,20 @@ def close_all_sublime_pythons():
         else:
             return [process for process in tree]
 
+    def kill_descendants(process):
+        process_id = process.pid
+        process_object = process
+        loop_flag = True
+        while loop_flag:
+            while process_object.children:
+                process_object = process_object.children[0]
+            process_object.kill()
+            process_object = find_processes(tree=process_list(),
+                                            pid=process_id)[0]
+            if not process_object.children:
+                process_object.kill()
+                loop_flag = False
+
     sublime_apps = find_processes(
         tree=process_list(), name='sublime_text.exe'
     )
@@ -111,6 +126,19 @@ def close_all_sublime_pythons():
                 tree=plugin_host.children, name='python.exe'
             )
             for python in pythons:
-                print('Closing:\n'
-                      '%s' % (python))
-                python.kill()
+                kill_descendants(python)
+                # console_hosts = find_processes(
+                #     tree=python.children, name='conhost.exe'
+                # )
+                # for console_host in console_hosts:
+                #     console_host.kill()
+                # gits = find_processes(
+                #     tree=python.children, name='git.exe'
+                # )
+                # for git in gits:
+                #     console_hosts = find_processes(
+                #         tree=git.children, name='conhost.exe'
+                #     )
+                #     for console_host in console_hosts:
+                #         console_host.kill()
+                # python.kill()
