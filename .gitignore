@@ -131,6 +131,7 @@
 /SublimeREPL/config/Scala/
 /User/.SublimeREPLHistory/
 /User/Package Control.cache/
+/User/Package Control.last-run
 /User/linters/
 /jsonschema/.gitignore
 /jsonschema/all/
