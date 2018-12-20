@@ -1,0 +1,39 @@
+[
+	{
+		"args":
+		{
+			"extend": false,
+			"to": "eol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"by": "characters",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"characters": "\n"
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"block": false
+		},
+		"command": "toggle_comment"
+	},
+	{
+		"args":
+		{
+			"events": 16
+		},
+		"command": "git_gutter"
+	}
+]
