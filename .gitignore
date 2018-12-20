@@ -129,6 +129,7 @@
 /SublimeREPL/config/PowerShell/
 /SublimeREPL/config/SML/
 /SublimeREPL/config/Scala/
+/User/.SublimeREPLHistory/
 /User/Package Control.cache/
 /User/linters/
 /jsonschema/.gitignore
