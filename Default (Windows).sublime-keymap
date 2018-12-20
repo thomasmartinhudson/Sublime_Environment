@@ -1,9 +1,0 @@
-[
-  { "keys": ["ctrl+\\"], "command": "py_repl" },
-  { "keys": ["ctrl+shift+\\"], "command": "close_py_repl" },
-  { "keys": ["ctrl+."], "command": "run_macro_file", "args": {"file": "Packages/User/Add_Breakpoint.sublime-macro"} },
-  // { "keys": ["ctrl+."], "command": "run_macro_file", "args": {"file": "Packages/User/pep8_comment.sublime-macro"} },
-  { "keys": ["ctrl+shift+."], "command": "remove_all_breakpoints" },
-  { "keys": ["ctrl+,"], "command": "run_macro_file", "args": {"file": "Packages/User/logger_update.sublime-macro"} },
-  { "keys": ["ctrl+shift+,"], "command": "run_macro_file", "args": {"file": "Packages/User/logger_update_with_variables.sublime-macro"} }
-]
