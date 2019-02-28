@@ -1,7 +1,36 @@
 {
 	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
 	"installed_packages":
 	[
-		"Package Control"
+		"AutoPEP8",
+		"Babel",
+		"Emmet",
+		"GitGutter",
+		"JavaScript Completions",
+		"Jedi - Python autocompletion",
+		"JsFormat",
+		"JSLint",
+		"JSON Reindent",
+		"JSONComma",
+		"JSONLint",
+		"Origami",
+		"Package Control",
+		"QuickGotoAnything",
+		"SideBarEnhancements",
+		"SublimeGit",
+		"sublimelint",
+		"SublimeLinter",
+		"SublimeLinter-csslint",
+		"SublimeLinter-html-tidy",
+		"SublimeLinter-jshint",
+		"SublimeLinter-json",
+		"SublimeLinter-php",
+		"SublimeLinter-pyflakes",
+		"SublimeLinter-pyyaml",
+		"SublimeREPL",
+		"VBScript"
 	]
 }
