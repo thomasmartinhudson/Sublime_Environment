@@ -1,0 +1,41 @@
+[
+	{
+		"args":
+		{
+			"extend": false,
+			"to": "eol"
+		},
+		"command": "move_to"
+	},
+	{
+		"args":
+		{
+			"characters": "\n\"\"\"\"\"\""
+		},
+		"command": "insert"
+	},
+	{
+		"args":
+		{
+			"by": "characters",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "characters",
+			"forward": false
+		},
+		"command": "move"
+	},
+	{
+		"args":
+		{
+			"by": "characters",
+			"forward": false
+		},
+		"command": "move"
+	}
+]
