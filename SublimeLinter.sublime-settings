@@ -15,7 +15,7 @@
          "max-complexity": 15,
          "max-line-length": 120,
          "args": [
-          // "--ignore=D100,D101,D103,D107"
+          "--ignore=D100,D101,D102,D103,D107"
          ]
     },
     "htmltidy": {
