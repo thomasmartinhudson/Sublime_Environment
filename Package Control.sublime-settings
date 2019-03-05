@@ -5,7 +5,6 @@
 	],
 	"installed_packages":
 	[
-		"AutoPEP8",
 		"Babel",
 		"Emmet",
 		"GitGutter",
@@ -20,6 +19,7 @@
 		"Origami",
 		"Package Control",
 		"ProjectManager",
+		"Python PEP8 Autoformat",
 		"QuickGotoAnything",
 		"SideBarEnhancements",
 		"SublimeGit",
