@@ -27,6 +27,7 @@
 		"SublimeLinter-php",
 		"SublimeLinter-pyyaml",
 		"SublimeREPL",
+		"VBScript",
 		"Zen Tabs"
 	]
 }
