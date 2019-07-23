@@ -29,6 +29,7 @@
 	"ignored_packages":
 	[
 		"Jimbly's Clipboard History",
+		"JSLint",
 		"Vintage"
 	],
 	"indent_to_bracket": true,

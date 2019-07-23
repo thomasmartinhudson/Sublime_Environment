@@ -6,6 +6,7 @@
 	"installed_packages":
 	[
 		"Babel",
+		"BracketHighlighter",
 		"Emmet",
 		"GitGutter",
 		"Gitignore",
@@ -13,6 +14,8 @@
 		"JavaScript Completions",
 		"Jedi - Python autocompletion",
 		"Jimbly's Clipboard History",
+		"JSLint",
+		"JsPrettier",
 		"Origami",
 		"Package Control",
 		"ProjectManager",
