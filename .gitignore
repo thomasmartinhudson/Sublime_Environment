@@ -6,3 +6,6 @@
 /Sublimerge Macros.sublime-commands
 /Sublimerge.sublime-color-scheme
 /SublimergeSummaryPanel.sublime-color-scheme
+/Package Control.merged-ca-bundle
+/Package Control.user-ca-bundle
+/oscrypto-ca-bundle.crt
