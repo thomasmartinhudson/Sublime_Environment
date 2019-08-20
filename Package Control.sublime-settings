@@ -6,6 +6,7 @@
 	],
 	"installed_packages":
 	[
+		"AutoPEP8",
 		"Babel",
 		"BracketHighlighter",
 		"Emmet",
