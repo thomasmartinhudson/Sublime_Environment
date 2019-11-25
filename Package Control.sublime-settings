@@ -5,6 +5,7 @@
 	],
 	"installed_packages":
 	[
+		"AutoPEP8",
 		"Babel",
 		"Emmet",
 		"GitGutter",
@@ -15,8 +16,8 @@
 		"Jimbly's Clipboard History",
 		"Origami",
 		"Package Control",
+		"Pretty JSON",
 		"ProjectManager",
-		"Python PEP8 Autoformat",
 		"QuickGotoAnything",
 		"SideBarEnhancements",
 		"SublimeGit",
