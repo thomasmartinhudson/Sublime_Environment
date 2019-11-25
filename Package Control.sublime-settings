@@ -2,11 +2,13 @@
 	"bootstrapped": true,
 	"in_process_packages":
 	[
+		"Python PEP8 Autoformat"
 	],
 	"installed_packages":
 	[
 		"AutoPEP8",
 		"Babel",
+		"BracketHighlighter",
 		"Emmet",
 		"GitGutter",
 		"Gitignore",
@@ -14,6 +16,8 @@
 		"JavaScript Completions",
 		"Jedi - Python autocompletion",
 		"Jimbly's Clipboard History",
+		"JSLint",
+		"JsPrettier",
 		"Origami",
 		"Package Control",
 		"Pretty JSON",

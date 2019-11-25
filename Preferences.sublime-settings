@@ -29,6 +29,8 @@
 	"ignored_packages":
 	[
 		"Jimbly's Clipboard History",
+		"JSLint",
+		"Python PEP8 Autoformat",
 		"Vintage"
 	],
 	"indent_to_bracket": true,
